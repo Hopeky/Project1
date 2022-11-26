@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diamonds">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="78dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="goBack"
+        android:text="Back"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="200dp"
+        android:text="0"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sprite_background"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:paddingTop="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/block4"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli1"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block1"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli1"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block5"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli1"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block2"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli1"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    tools:text="50" />
+
+                <Button
+                    android:id="@+id/block3"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli1"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/block9"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block6"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block10"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block8"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block7"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/zimli"
+                    android:text="50"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/block28"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block27"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block29"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block26"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block30"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/block34"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/diamond"
+                    android:text="300"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block33"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block32"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block31"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block35"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/block39"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block37"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/diamond"
+                    android:text="300"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block36"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block40"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/block38"
+                    android:layout_width="82dp"
+                    android:layout_height="82.4dp"
+                    android:background="@drawable/block"
+                    android:text="100"
+                    android:textSize="30sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

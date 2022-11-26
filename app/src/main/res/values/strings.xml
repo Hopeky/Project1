@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SuperMiner</string>
+    <string name="todo">TODO</string>
+    <string name="gold">Золото</string>
+    <string name="silver">Серебро</string>
+    <string name="Iron">Железные руды</string>
+    <string name="Diamonds">Алмызы</string>
+    <string name="Coal">Уголь</string>
+    <string name="gold1">Алмазы</string>
+</resources>

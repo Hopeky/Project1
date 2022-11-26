@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF2F0E44"
+    tools:context="com.example.SuperMiner.Menu">
+
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/orange45"
+            android:gravity="center|center_horizontal"
+            android:onClick="startGame"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Копать"
+            android:textColor="@color/yellow_text_btn"
+            android:textSize="40dp"
+            app:cornerRadius="100dp" />
+
+        <Button
+            android:id="@+id/btn_dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/gray95"
+            android:onClick="startNewActivity"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="разработчики"
+            android:textSize="20dp"
+            app:cornerRadius="100dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo_diamond"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@drawable/logo_super_mineral" />
+
+    <ImageView
+        android:id="@+id/superminer"
+        android:layout_width="223dp"
+        android:layout_height="112dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/superminer" />
+
+</RelativeLayout>
